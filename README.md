@@ -16,7 +16,7 @@ Create a simple todo application where users can:
 - Title
 - Description
 - Whether or not the task was completed
-- Zero or more task labels (Task can be associated with many labels)
+- Zero or more task labels (Task can be associated with many different labels)
 - Calendar event associated with task (can be null)
 
 
@@ -24,3 +24,7 @@ Create a simple todo application where users can:
 
 - Name (unique)
 - One label can be associated with many tasks
+
+**Calendar event attributes:**
+
+- datetime
