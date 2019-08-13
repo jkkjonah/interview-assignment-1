@@ -55,7 +55,7 @@ ROOT_URLCONF = 'wsinterview.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['wsinterview/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

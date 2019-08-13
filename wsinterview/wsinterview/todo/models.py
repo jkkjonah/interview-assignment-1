@@ -17,7 +17,7 @@ class Task(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=200)
     completed = models.BooleanField(default=False)
-    due_date = models.ForeignKey(CalendarEvent, on_delete=models.CASCADE)
+    due_date = models.ForeignKey(CalendarEvent, on_delete=models.CASCADE, null=True, blank=True)
 
 
 class TaskLabel(models.Model):
